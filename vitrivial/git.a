@@ -1,0 +1,49 @@
+    1  cd .local/
+    2  ls -la
+    3  cd ~
+    4  ks
+    5  ls
+    6  cd /opt/
+    7  ls
+    8  cd idea-IC-171.4694.23/
+    9  ls
+   10  cd bin/
+   11  ./idea.sh 
+   12  cd ~/learnopencv-master/ColorSpaces/pieces/
+   13  ./python interactiveColorSegment.py
+   14  which python
+   15  python interactiveColorSegment.py
+   16  ls
+   17  cd ../
+   18  python interactiveColorSegment.py
+   19  ls
+   20  python interactiveColorDetect.py 
+   21  cd ~
+   22  ls
+   23  cd idea-IC-171.4694.23/
+   24  ls
+   25  ls -la
+   26  ls
+   27  pwd
+   28  cd ../
+   29  cd IdeaProjects/
+   30  ls
+   31  ls -la
+   32  ls -r
+   33  cd vitrivial/
+   34  ls -r
+   35  man ls
+   36  ls -d
+   37  man ls
+   38  history
+   39  ls
+   40  git status
+   41  vi .gitignore 
+   42  git status
+   43  git add .
+   44  git status
+   45  ls
+   46  git commit -m
+   47  git commit -m "find wrist, change to silhouette"
+   48  git push
+   49  history >>git.a

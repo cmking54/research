@@ -1,0 +1,112 @@
+\documentclass[letterpaper,11pt]{article}
+package{fullpage}
+\usepackage{amsmath}
+\use
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{hyperref}
+%\usepackage{algpseudocode}
+%\usepackage{algorithm}
+
+\newtheorem{theorem}{Theorem}[section]
+
+\begin{document}
+
+\noindent{\textbf{'Baby Talk': Using Silhouettes to Communicate Simply}}
+\begin{enumerate}
+\item[I.] \textbf{Purpose to Research}
+
+\item[II.] \textbf{Steps to Algorithm}
+
+\begin{enumerate}
+\item[1.] Initialization
+\begin{enumerate}
+\item Starting The Camera Capture
+\item Starting The Background Subtractor
+\item Design Choices 
+\end{enumerate}
+
+\item[2.] Capture And Prep
+\begin{enumerate}
+\item 
+\end{enumerate}
+
+\item[3.] "Zone" Elimination (\& Recycling)
+\begin{enumerate}
+\item dolorem ipsum
+\end{enumerate}
+
+\item[4.] Hand Determination
+\begin{enumerate}
+\item dolorem ipsum
+\end{enumerate}
+
+\item[5.] Gesture Matcher
+\begin{enumerate}
+\item dolorem ipsum
+\end{enumerate}
+
+\item[6*.] Carryover
+\begin{enumerate}
+\item dolorem ipsum
+\end{enumerate}
+
+\end{enumerate}
+
+\item[III.] \textbf{Additional}
+
+\begin{enumerate}
+\item[1.] Tasks To Be Done
+\item[2.] Future Research/Extendible Uses
+\item[3.] Thanks And Citations
+\end{enumerate}
+
+\end{enumerate}
+
+\newpage
+
+\noindent{\textbf{\underline{I. Purpose to Research}}}
+
+\begin{enumerate}
+\item[Aim:] To establish a simple method to utilize more complex user interaction i.e. Gesture Control that is intuitive or learned by the individual computer
+\end{enumerate}
+
+How can a child communicate before their speech has fully developed? 
+
+Right now, there are multiple ways to interact with a computer, for example keyboard and mouse. But these often have to be close and can be disruptive. Sometimes the iteraction between user and computer should be more subtle, this style of iteraction is commonly called \emph{calm technology}$^{[-]}$. Calm technology is the ambient transfer of information that doesn't require a user's full attention, it allows for interaction that can happen alongside other tasks.
+
+Why this if other interaction exist? Well, realistically this approach is not ideal, but when there is a problem, sometimes breaking down the problem or solving it in simpler terms can lend answers as to improve the current answer proposed.
+
+\newpage
+
+\noindent{\textbf{\underline{II. Steps to Algorithm}}}\\
+
+\noindent{\underline{Initialization}}\\
+
+To start the program, it needs to make sure that everything is set before it continues. This is to reduce further errors that could result, similar to a constructor in Java. 
+Initially, it needs to set up how it will be receiving the visual data, since it is what will transformed to pull what information is revelant and will handed over for computation later. As of the time of this being written, it has \emph{some} support for receiving a single image, a frame, but it is designed to mainly accomodate a constant polling of frames from the primary video source, a webcam. If there is no camera connected and it is in the appropriate mode, the program will exit and not move further.
+Along with the frame source, a background subtractor (BGS) is needed to be established. The reason for a BGS is detect motion. As with human vision, we will be polling motion for a potential area of inquiry where we later figure out if it matches our definition of a sign.
+\\
+
+\noindent{\underline{Capture And Prep}}
+
+\noindent{\underline{"Zone" Elimination (\& Recycling)}}
+
+\noindent{\underline{Hand Determination}}
+
+\noindent{\underline{Gesture Matcher}}
+
+\noindent{\underline{Carryover}}
+
+\newpage
+
+\noindent{\textbf{\underline{Additional}}}
+
+\noindent{\underline{Tasks To Be Done}}
+
+\noindent{\underline{Future Research/Extendible Uses}}
+
+\noindent{\underline{Thanks And Citations}}
+
+\end{document}

@@ -1,0 +1,38 @@
+%%\documentclass[../exps.tex]{subfiles}
+\documentclass[letterpaper,11pt]{article}
+\begin{document}
+\pagestyle{empty}
+\noindent{\Large{\textbf{Experiment 1B}}
+} 
+
+\noindent{\large{Finding The Relationship Between Face and Hand}} \\
+
+\noindent{\underline{Purpose:}} 
+
+Experiment 1 details a similar process, but has (potential) consistencies when it comes to 
+To show that the silhouette can be used to find an appropriate range of what the hand should fall within a certain range
+
+To show the silhouette holds some signifigance 
+
+To emulate primitive human vision: seeing the rough shape may be aid to understanding whether it is human or not and to humans' innate sense [Maybe cite some natural facial recognition(psych)]
+\\
+
+\noindent{\underline{(Mini)-Hypothesis:}} 
+
+If there exists a golden ratio as in the work of Da Vinci and Vitruvius, then a natural range of what is to be expected should be able to be used by the algorithm to help predict what is a hand and what is not. 
+\\
+
+\noindent{\underline{Method:}}
+
+As motion is initially detected, we can capture that and test with euclidean distance if the potential hands found are in proportion. As the user moves, the silhouette would have to be recaptured, or the calculation may be off. 
+\\
+
+\noindent{\underline{Prediction:}}
+
+\emph{If it works:} 
+This means that the process to find hands is fine tuned, but also it means that since we have two working points of reference, we can define a \textbf{scale} at which (theoretically) can be used to help search for anything else on that user's body.
+
+\emph{Else:}
+It may be because when detecting motion, we are getting a lot of instaneous noise that may cloud a silhouette and then tossing out the silhouette since it is not the focus of the environment currently.
+\\
+\end{document}
